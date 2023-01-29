@@ -1,0 +1,128 @@
+.menu{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    /* margin-bottom: 3rem; */
+    padding: 1rem;
+    display: flex;
+    align-items:center;
+}
+li{
+    list-style: none;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.menu__enlaces{
+    color: black;
+    margin: 2rem;
+    padding: 1rem;
+}
+.menu__enlaces img{
+    max-height: 100px;
+}
+
+.box__section{
+border: 1px solid black;
+width: 70vw;
+margin: auto;
+}
+.card{
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    padding: 4rem;
+    height: 20vh;
+}
+.card1{
+    margin: auto;
+    display: flex;
+    width: 56vw;
+
+}
+.typename{
+    font-size: 1.6rem;
+}
+.name{
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+.card__img{
+    max-width: 20vh;
+}
+.ability{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 10vw;
+    border: 1px solid black;
+    background-color: rgb(29, 79, 172);
+    color: rgb(254, 254, 254);
+    animation-name: mov;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes mov {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.ability:hover+.parrafoability{
+    display: block;
+}
+.parrafoability{
+    font-size: 1.3rem;
+    width: 15%;
+    display: none;
+    position: absolute;
+    top: 14%;
+    left: 62%;
+}
+.ability:hover+.parrafoability1{
+    display: block;
+}
+.parrafoability1{
+    font-size: 1.3rem;
+    width: 15%;
+    display: none;
+    position: absolute;
+    top: 23%;
+    left: 62%;
+}
+
+.type{
+    border-radius: 8%;
+    padding: 1rem;
+    margin-left: 3rem;
+    height: 2vh;
+        background-color: rgb(27, 104, 108);
+    color: rgb(251, 251, 251);
+    font-size: 1.2rem;
+    
+}
+.type1{
+    border-radius: 8%;
+    padding: 1rem;
+    margin-left: 3rem;
+    height: 2vh;
+        background-color: rgb(27, 104, 108);
+    color: rgb(251, 251, 251);
+    font-size: 1.2rem;
+}

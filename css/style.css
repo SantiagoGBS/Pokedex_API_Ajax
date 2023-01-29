@@ -1,0 +1,74 @@
+/* Estilo del Index */
+
+.main{
+    background-image: url("/assets/images/fondo.jpg");
+}.animation__teacher{
+    border-radius: 2%;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(174, 215, 250);
+    margin-top: 5%;
+}
+.animation__teacher img{
+    margin-left: 30vw;
+    
+}
+.animation__index--text{
+    border-radius: 2%;
+    border: 1px solid black;
+    padding: 2rem;
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 55%;
+    left: 30%;
+    background-color: aliceblue;
+}
+.menu{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    /* margin-bottom: 3rem; */
+    padding: 1rem;
+    display: flex;
+    align-items:center;
+}
+li{
+    list-style: none;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.menu__enlaces{
+    color: black;
+    margin: 2rem;
+    padding: 1rem;
+}
+.menu__enlaces img{
+    max-height: 100px;
+}
+.generation{
+    border: 4px solid salmon;
+display: flex;
+align-items: center;
+justify-content: center;
+    background-color: brown;
+    width: 10vw;
+    height: 5vh;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.generaciones{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50vw;
+    margin-top: 2rem;
+}

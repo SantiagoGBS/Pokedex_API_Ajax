@@ -1,0 +1,63 @@
+/* Estilo de las tarjetas (generation) */
+.menu{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    /* margin-bottom: 3rem; */
+    padding: 1rem;
+    display: flex;
+    align-items:center;
+}
+li{
+    list-style: none;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.menu__enlaces{
+    color: black;
+    margin: 2rem;
+    padding: 1rem;
+}
+.menu__enlaces img{
+    max-height: 100px;
+}
+.section__card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: auto;
+}
+.card{
+    border: 2px solid black;
+    width: 15vw;
+    margin: 2vw;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 2px 5px 5px black;
+}
+.card__img{
+    max-width: 10vw;
+    max-height: 12vh;
+    display: flex;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.name{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid black;
+    width: 58vw;
+    margin: auto;
+    background-color: rgb(202, 234, 236);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
